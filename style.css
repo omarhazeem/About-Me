@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.5;
+}
+
+.site-header {
+  background-color: #dce8f7;
+  color: #1f3a5f;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.profile-photo {
+  width: 140px;
+  height: 184px;
+  object-fit: cover;
+  border: 3px solid white;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 34px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin: 8px 0 0 0;
+}
+
+.location {
+  margin: 4px 0 0 0;
+  color: #4a6a91;
+}
+
+.container {
+  width: min(90%, 850px);
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #e1e6ec;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+
+.card h2 {
+  color: #1f3a5f;
+  margin-top: 0;
+}
+
+.card a {
+  color: #2f5a94;
+}
+
+h3 {
+  color: #2f5a94;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccd3db;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #dce8f7;
+  color: #1f3a5f;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fafbfc;
+}
+
+.project {
+  border-left: 3px solid #9ec3f0;
+  padding: 8px 15px;
+  margin-bottom: 12px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.skills-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.skill-box {
+  flex: 1;
+  border: 1px solid #ccd3db;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.skill-box h3 {
+  margin-top: 0;
+}
+
+strong {
+  color: #1f3a5f;
+}
+
+@media screen and (max-width: 768px) {
+  .site-header h1 {
+    font-size: 28px;
+  }
+
+  .skills-row {
+    flex-direction: column;
+  }
+}
